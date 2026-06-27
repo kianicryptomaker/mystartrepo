@@ -1,6 +1,6 @@
 import random
 import strin
-random
+
 def generate_password(length=12):
     """Generate a secure random password."""
 
