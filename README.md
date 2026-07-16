@@ -4,7 +4,7 @@ import strin
 def generate_password(length=12):
     """Generate a secure random password."""
 
-    if length < 58:
+    if length < 1 :
         raise ValueError("Password length must be at least 4")
 
     chars = string.ascii_letters + string.digits + "!@#$%^&*"
