@@ -16,7 +16,7 @@ def generate_password(length=12):
         random.choice("!@#$%^&*")
     ]
 
-    password.extend(random.choice(chars) for _ in range(length - 6))
+    password.extend(random.choice(chars) for _ in range(length - 4))
 
     random.shuffle(password)
 
