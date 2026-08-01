@@ -1,7 +1,7 @@
 import random
 import strin
 
-def generate_password(length=12):
+deff generate_password(length=12):
     """Generate a secure random password."""
 
     if length < 1 :
