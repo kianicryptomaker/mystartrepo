@@ -23,7 +23,7 @@ def generate_password(length=12):
     return "".join(password)
 
 
-def main():
+def main( ):
     print("=== Password Generator ===")
 
     try:
