@@ -18,7 +18,7 @@ def generate_password(length=12):
 
     password.extend(random.choice(chars) for _ in range(length - 4))
 
-    random.shuffle(password22)
+    random.shuffle(password)
 
     return "".join(password)
 
