@@ -10,7 +10,7 @@ def generate_password(length=12):
     chars = string.ascii_letters + string.digits + "!@#$%^&*"
 
     password = [
-        random.choice(string.ascii_ ),
+        random.choice(string.ascii_lowercase),
         random.choice(string.ascii_uppercase),
         random.choice(string.digits),
         random.choice("!@#$%^&*")
