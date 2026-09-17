@@ -8,7 +8,7 @@ def generate_password(length=12):
        ValueError("Password length must be at least 4")
 
     chars = string.ascii_letters + string.digits + "!@#$%^&*"
-end
+
     password = [
         random.choice(string.ascii_lowercase),
         random.choice(string.ascii_uppercase),
